@@ -11,6 +11,7 @@ while playerhp > 0:
         playerhp=30
     if playerhp == 30:
         print("Warning!! You are on low health!")
+        break
     print("Enemy did a damage of", damage,"points.","Current HP =",playerhp) 
     if playerhp == 0:
         print("You can't go any further... you've reached the limit.")
